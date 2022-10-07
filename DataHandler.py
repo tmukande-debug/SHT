@@ -46,11 +46,11 @@ def transToLsts(mat, mask=False, norm=False):
 class DataHandler:
 	def __init__(self):
 		if args.data == 'yelp':
-			predir = 'Data/yelp/'
+			predir = '/content/Data/yelp/'
 		elif args.data == 'tmall':
-			predir = 'Data/tmall/'
+			predir = '/content/Data/tmall/'
 		elif args.data == 'gowalla':
-			predir = 'Data/gowalla/'
+			predir = '/content/Data/gowalla/'
 		self.predir = predir
 		self.trnfile = predir + 'trnMat.pkl'
 		self.tstfile = predir + 'tstMat.pkl'
