@@ -48,9 +48,9 @@ class DataHandler:
 		if args.data == 'yelp':
 			predir = '/content/SHT/Data/'
 		elif args.data == 'tmall':
-			predir = '/content/Data/tmall/'
+			predir = '/content/SHT/Data/tmall/'
 		elif args.data == 'gowalla':
-			predir = '/content/Data/gowalla/'
+			predir = '/content/SHT/Data/gowalla/'
 		self.predir = predir
 		self.trnfile = predir + 'trnMat.pkl'
 		self.tstfile = predir + 'tstMat.pkl'
